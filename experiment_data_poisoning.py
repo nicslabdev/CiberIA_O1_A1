@@ -10,7 +10,7 @@ from sklearn.cluster import DBSCAN
 # Cargar datos y preparar el set
 # ----------------------------
 path = os.path.join(os.getcwd(), 'Data')
-data = np.load(os.path.join(path, 'Data.npz'), allow_pickle=True)
+data = np.load(os.path.join(path, 'Data_CIC_IDS_2017.npz'), allow_pickle=True)
 
 # Usamos el conjunto "Support PCA"
 X_train = data['X_train_S_PCA']

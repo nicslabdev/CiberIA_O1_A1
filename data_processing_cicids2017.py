@@ -112,7 +112,7 @@ def balance_and_split(dataset):
     for name in class_names:
         df_class = selected[selected['Attack Type'] == name]
         if len(df_class) > 2500:
-            df_class = df_class.sample(n=10000, replace=True, random_state=0)
+            df_class = df_class.sample(n=150000, replace=True, random_state=0)
         dfs.append(df_class)
     
     balanced_df = pd.concat(dfs, ignore_index=True)
@@ -131,15 +131,15 @@ X_train_S_32, X_test_S_32, y_train_S_32, y_test_S_32 = balance_and_split(new_dat
 # no_smote
 features = new_data_pca.drop('Attack Type', axis=1)
 labels = new_data_pca['Attack Type']
-features = features.sample(n=70000, random_state=0)
-labels = labels.sample(n=70000, random_state=0)
+features = features.sample(n=1050000, random_state=0)
+labels = labels.sample(n=1050000, random_state=0)
 X_train_N_PCA, X_test_N_PCA, y_train_N_PCA, y_test_N_PCA = train_test_split(features, labels, test_size=0.3, random_state=0)
 
 # no_smote
 features = new_data_k_32.drop('Attack Type', axis=1)
 labels = new_data_k_32['Attack Type']
-features = features.sample(n=70000, random_state=0)
-labels = labels.sample(n=70000, random_state=0)
+features = features.sample(n=1050000, random_state=0)
+labels = labels.sample(n=1050000, random_state=0)
 X_train_N_32, X_test_N_32, y_train_N_32, y_test_N_32 = train_test_split(features, labels, test_size=0.3, random_state=0)
 
 print("Data preprocessing complete.")
