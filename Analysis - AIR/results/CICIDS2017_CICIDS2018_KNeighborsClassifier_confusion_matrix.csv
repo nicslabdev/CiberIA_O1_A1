@@ -1,0 +1,9 @@
+,BENIGN,Bot,Brute Force,DDoS,DoS,Infiltration,Port Scan,Web Attack
+BENIGN,15,1,4,0,0,1,0,0
+Bot,0,23,0,0,0,0,0,0
+Brute Force,0,0,17,0,0,3,0,0
+DDoS,0,0,1,13,0,0,0,0
+DoS,0,0,0,0,19,0,0,0
+Infiltration,0,0,0,0,3,17,0,0
+Port Scan,0,0,0,0,0,0,16,0
+Web Attack,0,0,0,0,0,0,2,25

@@ -1,0 +1,23 @@
+,precision,recall,f1-score,support
+BENIGN,0.0,0.0,0.0,209.0
+DoS,0.0,0.0,0.0,195.0
+DrDoS_DNS,0.0,0.0,0.0,0.0
+DrDoS_LDAP,0.0,0.0,0.0,0.0
+DrDoS_MSSQL,0.0,0.0,0.0,0.0
+DrDoS_NTP,0.0,0.0,0.0,0.0
+DrDoS_NetBIOS,0.0,0.0,0.0,0.0
+DrDoS_SSDP,0.0,0.0,0.0,0.0
+Exploits,0.0,0.0,0.0,212.0
+Fuzzers,0.0,0.0,0.0,200.0
+Generic,0.0,0.0,0.0,196.0
+LDAP,0.0,0.0,0.0,0.0
+NetBIOS,0.0,0.0,0.0,0.0
+Reconnaissance,0.0,0.0,0.0,189.0
+Shellcode,0.0,0.0,0.0,199.0
+Syn,0.0,0.0,0.0,0.0
+TFTP,0.0,0.0,0.0,0.0
+UDP,0.0,0.0,0.0,0.0
+UDP-lag,0.0,0.0,0.0,0.0
+accuracy,0.0,0.0,0.0,0.0
+macro avg,0.0,0.0,0.0,1400.0
+weighted avg,0.0,0.0,0.0,1400.0

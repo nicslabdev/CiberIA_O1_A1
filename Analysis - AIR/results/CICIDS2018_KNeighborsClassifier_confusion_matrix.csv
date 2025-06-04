@@ -1,0 +1,7 @@
+,BENIGN,Bot,Brute Force,DDoS,DoS,Infiltration
+BENIGN,19,0,0,0,0,1
+Bot,0,21,0,0,0,0
+Brute Force,0,0,15,0,0,0
+DDoS,0,0,0,22,0,0
+DoS,0,0,0,0,18,3
+Infiltration,0,0,0,0,0,21

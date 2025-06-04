@@ -1,0 +1,12 @@
+,BENIGN,Bot,Brute Force,DDoS,DoS,Exploits,Fuzzers,Generic,Infiltration,Reconnaissance,Shellcode
+BENIGN,9,1,0,0,0,0,0,0,0,0,0
+Bot,0,28,0,0,0,0,0,0,0,0,0
+Brute Force,0,0,11,7,0,0,0,0,0,0,0
+DDoS,0,0,0,14,0,0,0,0,0,0,0
+DoS,0,0,1,0,17,0,0,0,0,0,0
+Exploits,0,0,0,0,0,11,7,1,0,0,0
+Fuzzers,0,0,0,0,0,2,24,1,1,0,0
+Generic,0,0,0,0,1,2,3,16,0,0,0
+Infiltration,0,0,0,0,0,0,0,0,23,0,1
+Reconnaissance,0,0,0,0,0,0,0,0,0,7,10
+Shellcode,0,0,0,0,0,0,2,0,1,8,11

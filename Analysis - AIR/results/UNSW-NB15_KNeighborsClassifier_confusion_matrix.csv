@@ -1,0 +1,8 @@
+,BENIGN,DoS,Exploits,Fuzzers,Generic,Reconnaissance,Shellcode
+BENIGN,18,0,0,0,0,0,0
+DoS,0,20,1,0,0,1,0
+Exploits,0,0,24,0,0,0,0
+Fuzzers,0,0,0,18,1,0,0
+Generic,0,1,0,2,20,0,0
+Reconnaissance,0,0,0,0,0,18,0
+Shellcode,0,0,0,0,0,1,15

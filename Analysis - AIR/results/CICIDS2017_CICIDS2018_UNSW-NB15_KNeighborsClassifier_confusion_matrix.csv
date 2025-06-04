@@ -1,0 +1,14 @@
+,BENIGN,Bot,Brute Force,DDoS,DoS,Exploits,Fuzzers,Generic,Infiltration,Port Scan,Reconnaissance,Shellcode,Web Attack
+BENIGN,13,0,0,0,0,1,1,0,0,0,0,0,0
+Bot,0,25,0,0,0,0,0,0,0,0,0,0,0
+Brute Force,0,0,22,0,0,0,0,0,0,0,0,0,0
+DDoS,0,0,2,16,0,0,0,0,0,0,0,0,0
+DoS,0,0,2,2,12,0,0,0,0,0,0,0,0
+Exploits,0,0,0,0,0,20,1,0,0,0,0,0,0
+Fuzzers,0,0,0,0,1,0,21,1,0,0,0,0,0
+Generic,0,0,0,0,0,4,5,10,1,0,0,1,0
+Infiltration,0,0,1,0,0,0,0,0,19,0,0,0,1
+Port Scan,0,0,0,0,0,0,0,0,0,18,0,0,0
+Reconnaissance,0,0,0,0,0,0,0,0,0,0,21,1,0
+Shellcode,0,0,0,0,0,0,0,0,0,0,2,12,1
+Web Attack,0,0,0,0,0,0,0,0,0,0,0,0,23
