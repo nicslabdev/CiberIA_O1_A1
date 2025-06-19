@@ -1,14 +1,14 @@
 # CiberIA_O1_A1 🛡️🤖
 
 ## ⚡ Project Overview
-CiberIA_O1_A1 is the first assignment (Actividad 1) for the Cybersecurity with Artificial Intelligence (CiberIA) course. The goal is to analyze and compare the performance of various machine learning models on multiple intrusion detection datasets. This project covers data processing, feature engineering, model training, evaluation, and a unified threat detection framework.
+CiberIA_O1_A1 is the first assignment (Actividad 1) of the CiberIA project. The goal is to analyze and compare the performance of various machine learning models on multiple intrusion detection datasets as previous work, and design a maintainable and verifiable AI detection system. This project covers data processing, feature engineering, model training, evaluation, and a unified threat detection framework.
 
 ## 🎯 Objectives
 - Load and preprocess raw network intrusion datasets (CIC-IDS2017, CIC-IDS2018, CIC-IDS2019, UNSW-NB15).
 - Apply dimensionality reduction (PCA) and feature selection (Top-K) techniques.
 - Train and evaluate different classification algorithms (KNN, Random Forest, Linear SVC, LGBM, XGBoost, Stacking, Sequential neural networks).
 - Compare results across datasets and sampling strategies (no-SMOTE vs. SMOTE).
-- Develop a modular threat detection system to integrate data processing and inference.
+- Develop a modular threat detection system (framework) to integrate data processing and inference.
 
 ## 🚀 Stats at a Glance 📊
 | Metric           | Value                                            |
@@ -63,17 +63,6 @@ Contains Python scripts and Jupyter notebooks that:
    ```bash
    pip install -r Framework/requirements.txt
    ```
-
-## ⚙️ Usage
-- **Analysis notebooks**: Open `.ipynb` files under `Analysis - AIR/` and run cells to reproduce figures and tables.
-- **Scripts**: Execute individual Python scripts in `Analysis - AIR/` for batch experiments.
-- **Framework**: Run the detection pipeline:
-  ```bash
-  python Framework/threat_detection_system.py --dataset CIC-IDS2018 --mode evaluate
-  ```
-
-## 📊 Results
-All generated figures, heatmaps, and performance reports are available under the `Data/` directory. Summary tables can be found in `Results_*` CSV files.
 
 ## 📝 License
 This repository is part of the project "CiberIA: Investigación e Innovación para la Integración de Ciberseguridad e Inteligencia Artificial" (Proyecto C079/23), financed by "European Union NextGeneration-EU, the Recovery Plan, Transformation and Resilience", through INCIBE. It has also been partially supported by the project SecAI (PID2022-139268OB-I00) funded by the Spanish Ministerio de Ciencia e Innovacion, and Agencia Estatal de Investigacion.
