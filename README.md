@@ -76,7 +76,7 @@ Contains Python scripts and Jupyter notebooks that:
 All generated figures, heatmaps, and performance reports are available under the `Data/` directory. Summary tables can be found in `Results_*` CSV files.
 
 ## 📝 License
-This project is released under the MIT License.
+This repository is part of the project "CiberIA: Investigación e Innovación para la Integración de Ciberseguridad e Inteligencia Artificial" (Proyecto C079/23), financed by "European Union NextGeneration-EU, the Recovery Plan, Transformation and Resilience", through INCIBE. It has also been partially supported by the project SecAI (PID2022-139268OB-I00) funded by the Spanish Ministerio de Ciencia e Innovacion, and Agencia Estatal de Investigacion.
 
 ---
 *Last updated: June 2025*
