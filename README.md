@@ -1,5 +1,7 @@
 # CiberIA_O1_A1 🛡️🤖
 
+<b>Estos resultados han sido (parcialmente) financiados por la Cátedra Internacional UMA 2023, la cual forma parte del Programa Global de Innovación en Seguridad para la promoción de Cátedras de Ciberseguridad en España financiado por la Unión Europea Fondos NextGeneration-EU, a través del Instituto Nacional de Ciberseguridad (INCIBE).</b>
+
 ## ⚡ Project Overview
 CiberIA_O1_A1 is the first assignment (Actividad 1) of the CiberIA project. The goal is to analyze and compare the performance of various machine learning models on multiple intrusion detection datasets as previous work, and design a maintainable and verifiable AI detection system. This project covers data processing, feature engineering, model training, evaluation, and a unified threat detection framework.
 
