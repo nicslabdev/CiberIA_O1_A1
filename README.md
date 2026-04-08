@@ -1,6 +1,6 @@
 # CiberIA_O1_A1 🛡️🤖
 ![Fondos_INCIBE](https://github.com/nicslabdev/CiberIA_O1_A1/raw/main/logo_fondos_incibe.png)
-<b>Estos resultados han sido (parcialmente) financiados por la Cátedra Internacional UMA 2023, la cual forma parte del Programa Global de Innovación en Seguridad para la promoción de Cátedras de Ciberseguridad en España financiado por la Unión Europea Fondos NextGeneration-EU, a través del Instituto Nacional de Ciberseguridad (INCIBE).</b>
+This repository is part of the project "CiberIA: Investigación e Innovación para la Integración de Ciberseguridad e Inteligencia Artificial" (Proyecto C079/23), financed by "European Union NextGeneration-EU, the Recovery Plan, Transformation and Resilience", through INCIBE.
 
 ## ⚡ Project Overview
 CiberIA_O1_A1 is the first assignment (Actividad 1) of the CiberIA project. The goal is to analyze and compare the performance of various machine learning models on multiple intrusion detection datasets as previous work, and design a maintainable and verifiable AI detection system. This project covers data processing, feature engineering, model training, evaluation, and a unified threat detection framework.
